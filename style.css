@@ -10,7 +10,7 @@
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1340px;
     width: 100%;
     padding: 0 20px;
     margin: 0  auto;
@@ -24,11 +24,12 @@ a {
     text-decoration: none;
 }
 
-header{
+
+/* header */
+
+#header{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
-
 
 .header {
     width: 100%;
