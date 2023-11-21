@@ -1,80 +1,218 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
-    max-width: 1140px;
-    width: 100%;
-    padding: 0 20px;
-    margin: 0  auto;
+  max-width: 1260px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 
 /* header */
 
-#header{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+#header {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }
 
 .nav-list {
-    display: flex;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .nav-list_item {
-    color: #000;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 34.2px;
-    transition: all 0.4s ease;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34.2px;
+  transition: all 0.4s ease;
 }
 
-.nav-list_item:hover{
-    color: #FF4D00;
+.nav-list_item:hover {
+  color: #ff4d00;
 }
 
 .bx {
-    font-size: 25px;
+  font-size: 25px;
 }
 
-.nav-btn {
-    color: #FFF;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 22.8px;
-    text-transform: capitalize;
-    border-radius: 40px;
-    background: linear-gradient(90deg, #FF4D00 0%, #FF9365 100%);
-    padding: 18px 48px;
-    border: none;
+.btn {
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22.8px;
+  text-transform: capitalize;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #ff4d00 0%, #ff9365 100%);
+  padding: 18px 48px;
+  border: none;
 }
+
+/* hero */
+#hero {
+  max-height: 880px;
+  height: 50%;
+  background-color: rgba(186, 196, 206, 0.118);
+}
+
+.hero {
+  display: flex;
+  gap: 54px;
+}
+
+.hero-info_title {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 76.8px;
+  max-width: 715px;
+  padding-top: 180px;
+  padding-bottom: 50px;
+}
+
+.hero-info_img {
+  max-width: 31.25px;
+  height: 25px;
+}
+
+.hero-info_text {
+  color: #262626;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.hero-info_textBox {
+  display: flex;
+  gap: 5px;
+}
+
+.hero-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px; /* 120% */
+  text-transform: capitalize;
+  border-radius: 40px;
+  background: #e84e10;
+  padding: 15px 40px;
+  border: none;
+  margin-top: 80px;
+  transition: all 1s ease;
+}
+
+.hero-btn:hover {
+  background-color: darkblue;
+}
+
+.hero-swiper_img {
+  width: 410px;
+  height: 560px;
+  border-radius: 280px;
+}
+
+.swiper {
+  width: 410px;
+  height: 560px;
+  position: relative;
+  top: 180px;
+}
+
+/* yangi */
+
+.yangi-list {
+  display: flex;
+  gap: 30px;
+}
+
+.yangi-text {
+  color: #e84e10;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43.2px;
+  padding-top: 275px;
+}
+
+.yangi-title {
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px;
+  padding-bottom: 55px;
+}
+
+.yangi-list_calendar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 35px;
+  padding-bottom: 17px;
+}
+
+.yangi-list_calendarText {
+  color: #262626;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 34.2px;
+}
+
+.yangi-list_item_text {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 31.2px;
+  width: 295px;
+  transition: all 0.4s ease;
+  padding-bottom: 100px;
+}
+
+.yangi-list_item_text:hover {
+  color: #ff4d00;
+}
+
+/* darslar */
+
