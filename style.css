@@ -216,3 +216,37 @@ a {
 
 /* darslar */
 
+.darslar {
+  background: #282828;
+}
+
+.darslar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.darslar-title {
+  color: #e84e10;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  padding-top: 50px;
+  padding-bottom: 43px;
+}
+
+.darslar-text {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.8px;
+  padding-top: 43px;
+  padding-bottom: 50px;
+}
