@@ -310,6 +310,7 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
+  transition: all 5s ease;
 }
 
 .markaz-number_line {
@@ -321,3 +322,19 @@ a {
   margin-right: 40px;
   margin-bottom: 100px;
 }
+
+.markaz-number_info{
+  cursor: pointer;
+  transition: all 5s ease;
+  
+}
+
+.markaz-number_info:hover{
+  .markaz-number_textNum {
+  color: #ff4d00;
+}
+
+}
+
+/* Afzalliklarimiz */
+
