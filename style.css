@@ -225,7 +225,6 @@ a {
   justify-content: center;
   align-items: center;
   gap: 20px;
-
 }
 
 .darslar-title {
@@ -249,4 +248,76 @@ a {
   line-height: 28.8px;
   padding-top: 43px;
   padding-bottom: 50px;
+}
+
+/* markaz */
+
+#markaz {
+  padding-top: 60px;
+  padding-bottom: 190px;
+}
+
+.markaz {
+  border-radius: 30px;
+  background: #e8faff;
+  display: flex;
+  gap: 30px;
+}
+
+.markaz-img {
+  height: 481.24px;
+  width: 416.66px;
+}
+
+.markaz-title {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px;
+  padding-top: 90px;
+}
+
+.markaz-text {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px;
+  padding-top: 11px;
+  padding-bottom: 40px;
+}
+
+.markaz-number{
+  display: flex;
+}
+
+.markaz-number_textNum {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 104.5px;
+}
+
+.markaz-number_text {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.markaz-number_line {
+  display: block;
+  background: #ecc6c2;
+  width: 2px;
+  height: 128.5px;
+  margin-left: 176px;
+  margin-right: 40px;
+  margin-bottom: 100px;
 }
